@@ -5,7 +5,7 @@ Stampa l'array nella console. */
 
 function isOdd(numero) {
     if (numero % 2 != 0) {
-        return "dispari";
+        return true;
     }
 }
 
@@ -13,7 +13,7 @@ var numeri = [];
 
 for (var i = 0; i < 6; i++) {
     var numero = parseInt(prompt("Inserisci un numero!"));
-    if (isOdd(numero) == "dispari") {
+    if (isOdd(numero)) {
         numeri.push(numero);
     }
 }

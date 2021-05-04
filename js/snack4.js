@@ -1,8 +1,21 @@
 /* Generatore di “nomi cognomi” casuali: scrivere una funzione che, partendo da una lista di nomi e una lista di cognomi, generi una coppia nome-cognome casuale, così da permettere al signor Gatsby di costruire una falsa lista di 10 invitati alla sua festa, da stampare in pagina, utilizzando il tag adatto alle liste. */
+
+/**
+ * 
+ * @param {number} min 
+ * @param {number} max 
+ * @returns {number}
+ */
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+
+/**
+ * @param {Array} nomi
+ * @param {Array} cognomi
+ * @returns {string}
+ */
 
 function generatoreNomiCasuale(nomi, cognomi) {
     var nomeCasuale = nomi[randomNumber(0, nomi.length - 1)];
