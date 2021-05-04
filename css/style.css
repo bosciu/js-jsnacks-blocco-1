@@ -1,0 +1,21 @@
+h1 {
+    margin: 3%;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 2% auto;
+}
+
+.color-red {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: bold;
+    margin: 1% 0;
+}
